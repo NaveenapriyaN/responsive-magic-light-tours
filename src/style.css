@@ -1,0 +1,64 @@
+.main{
+    background-image: url(./Images/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0px;
+}
+.form-box{
+    background-color: rgba(138, 175, 181, 0.553);
+    backdrop-filter:blur(20px) ;
+    border-radius: 20px;
+    border:1px solid white;
+}
+.form-box input{
+    border-radius: 10px;
+}
+.form-box input:focus{
+    box-shadow:0 0 0;
+    border:2px solid #421398;
+}
+.form-box select{
+    border-radius: 10px;
+}
+.form-box select:focus{
+    box-shadow:0 0 0;
+    border:2px solid #421398;
+}
+.register-btn{
+    background-image: linear-gradient(to right, #6d2b8e, #2b739c, #3fc084) ;
+    border-radius:10px;
+    color:white;
+}
+.book-btn{
+    background-image: linear-gradient(to right, #6d2b8e, #2b739c, #3fc084) ;
+    border-radius:10px;
+    color:white;
+}
+.text h1{
+    font-size: 80px;
+}
+#book{
+    text-decoration: none;
+
+}
+.two{
+    background-image: linear-gradient(rgba(16, 16, 41, 0.8),rgba(0,0,50,0.8)),url(../Images/2.avif);
+background-size: 100% 100%;
+background-repeat:no-repeat;
+}
+#twoh1{
+    font-size: 70px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+}
+#twop{
+    font-size: larger;
+    font-family:sans-serif;
+}
